@@ -14,6 +14,7 @@ module.exports = {
       },
       spacing:{
         'regular' : '1.083rem',
+        'x-offset' : '1.375rem',
         'desktop' : '60.625rem'
       },
       maxWidth:{
