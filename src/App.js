@@ -4,7 +4,7 @@ import Home from "./components/Home"
 
 const App = () => {
   return (
-      <div className={'bg-background pt-2'}>
+      <div className={'bg-background pt-2 font-sans'}>
           <TopBar />
           <Home />
       </div>
