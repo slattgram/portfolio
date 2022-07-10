@@ -10,7 +10,9 @@ module.exports = {
       colors:{
         'background' : '#F2F1F7',
         'system-blue' : '#007AFF',
-        'accent-green' : '#BEF1C7'
+        'accent-green' : '#BEF1C7',
+        'grey' : '#D9D9D9',
+        'dark-grey' : '#999999'
       },
       spacing:{
         'regular' : '1.083rem',

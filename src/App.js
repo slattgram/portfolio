@@ -1,14 +1,18 @@
 import React from "react";
 import TopBar from "./components/TopBar";
-import Home from "./components/Home"
-import About from "./components/About"
+import HomeTab from "./components/HomeTab"
+import AboutTab from "./components/AboutTab"
+import ProjectsTab from "./components/ProjectsTab";
+import ContactTab from "./components/ContactTab";
 
 const App = () => {
   return (
       <div className={'bg-background pt-2 font-sans'}>
           <TopBar />
-          <Home />
-          <About />
+          <HomeTab />
+          <AboutTab />
+          <ProjectsTab/>
+          <ContactTab/>
       </div>
   );
 }

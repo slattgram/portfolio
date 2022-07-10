@@ -1,10 +1,10 @@
 import React from 'react'
 import AboutRow from "./AboutRow";
 
-const About = () => {
+const AboutTab = () => {
     return(
         <div className={'px-24 py-20 bg-white mx-auto mt-16 max-w-desktop rounded-2xl '}>
-            <div className={'flex justify-between mb-5'}>
+            <div className={'flex justify-between mb-10'}>
                 <h2 className={'text-h2 font-semibold'}>About me</h2>
                 <div className={'text-h3 text-system-blue my-auto'}><a href="">Download CV</a></div>
             </div>
@@ -21,4 +21,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutTab

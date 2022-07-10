@@ -1,7 +1,7 @@
 import React  from 'react'
 import welcomeFace from '.././photos/welcomeFace.svg'
 
-const Home = () => {
+const HomeTab = () => {
     return(
         <div className={'flex flex-row justify-between px-24 max-w-desktop bg-white mx-auto mt-8 rounded-2xl' +
                         ' py-72'}>
@@ -23,4 +23,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomeTab
