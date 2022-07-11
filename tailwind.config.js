@@ -31,6 +31,11 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      screens:{
+        mobile: {'min': 320,'max': 480},
+        tablet: {'min': 481,'max':768},
+        desktop: {'min': 769}
+      }
     }
   },
   plugins: [],

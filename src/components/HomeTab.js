@@ -1,5 +1,6 @@
-import React  from 'react'
+import React from 'react'
 import welcomeFace from '.././photos/welcomeFace.svg'
+import CTAButton from "./CTAButton";
 
 const HomeTab = () => {
     return(
@@ -10,9 +11,7 @@ const HomeTab = () => {
                 <div className={'text-h2 mt-2'}>Frontend developer</div>
                 <div className={'text-h3 mt-4'}>I thrive to deliver high-quality software
                     and stay up-to-date  with latest tech</div>
-                <button className={'text-base mt-6 py-3 px-[22px] bg-system-blue text-white rounded-lg'}>
-                    Contact me
-                </button>
+                <CTAButton text={'Contact me'}/>
             </div>
             <div className={'w-[16.25rem] h-[16.25rem] bg-gradient-to-br from-accent-green to-system-blue rounded-full'}>
                 <img src={welcomeFace} alt="my-face"
