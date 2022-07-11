@@ -17,7 +17,9 @@ module.exports = {
       spacing:{
         'regular' : '1.083rem',
         'x-offset' : '1.375rem',
-        'desktop' : '60.625rem'
+        'desktop' : '60.625rem',
+        'card-x-padding' : '6.25rem',
+        'card-y-padding' : '4.625rem'
       },
       maxWidth:{
         'desktop' : '60.625rem'
@@ -30,12 +32,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
-      screens:{
-        mobile: {'min': 320,'max': 480},
-        tablet: {'min': 481,'max':768},
-        desktop: {'min': 769}
       }
+
     }
   },
   plugins: [],

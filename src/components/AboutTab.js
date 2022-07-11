@@ -3,7 +3,7 @@ import AboutRow from "./AboutRow";
 
 const AboutTab = () => {
     return(
-        <div className={'px-24 py-20 bg-white mx-auto mt-16 max-w-desktop rounded-2xl '}>
+        <div className={'px-[15px] md:px-card-x-padding py-card-y-padding bg-white mx-auto mt-16 max-w-desktop rounded-2xl '}>
             <div className={'flex justify-between mb-10'}>
                 <h2 className={'text-h2 font-semibold'}>About me</h2>
                 <div className={'text-h3 text-system-blue my-auto'}><a href="">Download CV</a></div>

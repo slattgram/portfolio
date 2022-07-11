@@ -5,10 +5,10 @@ import CTAButton from "./CTAButton";
 const ContactTab = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
-    const [description, setDescription] = useState('')
+    const [description, setDescription] = useState('Describe your request/problem ')
 
     return(
-        <div className={'px-24 py-20 bg-white mx-auto mt-16 max-w-desktop rounded-2xl'}>
+        <div className={'px-card-x-padding py-card-y-padding bg-white mx-auto mt-16 max-w-desktop rounded-2xl'}>
             <h2 className={'text-h2 font-semibold mb-6'}>Contact me</h2>
             <Input inputValue={name} inputHandler={(e) => setName(e)}/>
             <Input inputValue={email} inputHandler={(e) => setEmail(e)} isEmail={true}/>
