@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopBar = () =>{
     return(
-        <div className='hidden lg:visible flex justify-end py-4 px-8 rounded-2xl
+        <div className='hidden lg:flex justify-end py-4 px-8 rounded-2xl
                          mx-auto max-w-desktop bg-white text-black text-base'>
             <div className={''}>Home</div>
             <div className={'ml-8'}>About</div>

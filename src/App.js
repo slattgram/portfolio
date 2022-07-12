@@ -7,10 +7,10 @@ import ContactTab from "./components/ContactTab";
 
 const App = () => {
   return (
-      <div className={'bg-background pt-2 font-sans'}>
+      <div className={'bg-background pt-2 font-sans md:px-[15px]'}>
           <TopBar />
           <HomeTab />
-          <AboutTab />
+          <AboutTab/>
           <ProjectsTab/>
           <ContactTab/>
       </div>

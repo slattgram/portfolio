@@ -32,6 +32,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
+      screens:{
+        'lg' : '900px'
       }
 
     }
