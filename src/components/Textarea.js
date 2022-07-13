@@ -12,12 +12,13 @@ const Textarea = ({inputValue, inputHandler}) => {
     const onBlankInput = () =>{
         if (inputValue == '' || inputValue == null) {
             inputHandler('Describe your request/problem')
+            setClicked(false)
         }
     }
 
     return(
         <textarea className={'w-full mt-4 border border-dark-grey rounded-[10px] ' +
-            'px-4 pt-5 pb-1.5 text-base text-black outline-0 resize-none'}
+            'px-4 pt-5 pb-1.5 text-base text-black outline-0 resize-none text-dark-grey focus:text-black'}
                   value={inputValue} onChange={(e)=>{inputHandler(e.target.value)}}
                   rows={8} onClick={()=>onFirstClick()} onBlur={()=>{onBlankInput()}}>
             </textarea>

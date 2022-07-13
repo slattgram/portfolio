@@ -12,7 +12,7 @@ module.exports = {
         'system-blue' : '#007AFF',
         'accent-green' : '#BEF1C7',
         'grey' : '#D9D9D9',
-        'dark-grey' : '#999999'
+        'dark-grey' : '#6e6e73'
       },
       spacing:{
         'regular' : '1.083rem',
