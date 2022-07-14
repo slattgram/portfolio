@@ -1,4 +1,4 @@
-import React from "react";
+import {React} from "react";
 import TopBar from "./components/TopBar";
 import HomeTab from "./components/HomeTab"
 import AboutTab from "./components/AboutTab"
