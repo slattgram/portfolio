@@ -9,7 +9,7 @@ const HomeTab = ({homeRef,contactRef}) => {
                         ' sm:px-card-x-padding max-w-desktop bg-white mx-auto mt-8 lg:mt-20 sm:rounded-2xl' +
                         ' py-card-y-padding lg:py-72 tablet:flex-col-reverse'}
              ref={homeRef}>
-            <div className={'max-w-[23.125rem] text-center lg:text-left mx-auto'}>
+            <div className={'max-w-[23.125rem] text-center lg:text-left mx-auto mt-[3.125rem]'}>
                 <div className={'font-semibold text-h1'} >Hello, I'm Dima</div>
                 <div className={'text-h2 mt-2'}>Frontend developer</div>
                 <div className={'text-h3 mt-4'}>I thrive to deliver high-quality software

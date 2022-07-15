@@ -28,6 +28,9 @@ const AboutTab = ({aboutRef}) => {
                 <AboutRow>
                     <AboutLabel label={'Languages'} text={'English (B2-C1)   Ukrainian (Native)'}/>
                 </AboutRow>
+                <AboutRow>
+                    <AboutLabel label={'Skills'} text={'HTML · CSS · JS · React · Redux · Tailwind · Figma · Git'}/>
+                </AboutRow>
             </div>
 
 
