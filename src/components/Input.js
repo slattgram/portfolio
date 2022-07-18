@@ -10,7 +10,7 @@ const Input = ({inputValue, inputHandler, isEmail=false}) => {
     }
 
     const onBlankInput = () => {
-        if (inputValue == '' || inputValue == null){
+        if (inputValue === '' || inputValue === null){
             setClicked(false)
         }
 

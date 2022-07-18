@@ -10,7 +10,7 @@ const Textarea = ({inputValue, inputHandler}) => {
         }
     }
     const onBlankInput = () =>{
-        if (inputValue == '' || inputValue == null) {
+        if (inputValue === '' || inputValue === null) {
             inputHandler('Describe your request/problem')
             setClicked(false)
         }
