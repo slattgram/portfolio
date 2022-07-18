@@ -5,13 +5,18 @@ const Footer = ({linksRef}) => {
     return(
 
         <div className={'flex justify-end sm:justify-between py-4 px-8 md:rounded-2xl align-middle mt-8 ' +
-            '            max-w-desktop bg-black bg-opacity-75 backdrop-blur-md  mx-auto text-white text-base '}>
+            '            max-w-desktop bg-black bg-opacity-75 backdrop-blur-md  mx-auto text-white text-base '}
+            ref={linksRef}>
             <div className={"hidden sm:block"}>Dmytro Pokhnatiuk's portfolio</div>
             <div className={'flex gap-4'}>
-                <a href="https://www.linkedin.com/in/dmytro-pokhnatiuk/"  rel="noreferrer"><FaLinkedin size={24}/></a>
-                <a href="https://github.com/slattgram" target={'_blank'} rel="noreferrer"><FaGithub size={24}/></a>
-                <a href="https://www.instagram.com/dmytropokhnatiuk" target={'_blank'} rel="noreferrer"><FaInstagram size={24}/></a>
-                <a href="https://open.spotify.com/playlist/0Yh7sgK2IObPe4q1nVtKs7" target={'_blank'} rel="noreferrer"><FaSpotify size={24}/></a>
+                <a href="https://www.linkedin.com/in/dmytro-pokhnatiuk/"
+                   rel="noreferrer" ><FaLinkedin size={24} className={'hover:text-[#0072b1]'}/></a>
+                <a href="https://github.com/slattgram" target={'_blank'}
+                   rel="noreferrer"><FaGithub size={24} className={'hover:text-[#fccc63]'}/></a>
+                <a href="https://www.instagram.com/dmytropokhnatiuk" target={'_blank'}
+                   rel="noreferrer"><FaInstagram size={24} className={'hover:text-[#cd486b]'}/></a>
+                <a href="https://open.spotify.com/playlist/0Yh7sgK2IObPe4q1nVtKs7" target={'_blank'}
+                   rel="noreferrer"><FaSpotify size={24} className={'hover:text-[#1DB954]'}/></a>
             </div>
         </div>
     )
