@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutRow from "./AboutRow";
 import AboutLabel from './AboutLabel'
+import pdf from '.././files/CV_Pokhnatiuk.pdf'
 
 const AboutTab = ({aboutRef}) => {
     return(
@@ -8,7 +9,7 @@ const AboutTab = ({aboutRef}) => {
              ref={aboutRef}>
             <div className={'flex justify-between mb-10'}>
                 <h2 className={'text-h2 font-semibold'}>About me</h2>
-                <div className={'text-h3 text-system-blue my-auto'}><a href="">Download CV</a></div>
+                <div className={'text-h3 text-system-blue my-auto'}><a href={pdf} download>Download CV</a></div>
             </div>
 
             <div>
