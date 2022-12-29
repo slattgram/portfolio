@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutRow from "./AboutRow";
 import AboutLabel from './AboutLabel'
-import pdf from '.././files/CV_Pokhnatiuk.pdf'
+import pdf from '.././files/CV_React_Pokhnatiuk.pdf'
 
 const AboutTab = ({aboutRef}) => {
     return(
@@ -21,7 +21,7 @@ const AboutTab = ({aboutRef}) => {
                 <AboutRow>
                     <AboutLabel label={'Education'} text={'Lviv NU (CS)'}/>
                     <AboutLabel label={'Email'} text={'outta.hoodz@gmail.com'}/>
-                    <AboutLabel label={'Phone'} text={'+380732007811'}/>
+                    <AboutLabel label={'Phone'} text={'+380730096362'}/>
                 </AboutRow>
                 <AboutRow>
                     <AboutLabel label={'Description'} text={'I’m Junior React.js developer. Currently I am a 3rd year student at Lviv National University, but I am open to work. I am passionate about delivering beautiful designs to life. I enjoy team work and focused on needs more than wants. That’s why I’d be delighted to join your team.'}/>
